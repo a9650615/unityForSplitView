@@ -44,7 +44,9 @@ public class MainViewController : MonoBehaviour
     void Start()
     {
         var server = new Server();
-    }
+		mainView = gameObject;
+
+	}
 
     // Update is called once per frame
     void Update()
